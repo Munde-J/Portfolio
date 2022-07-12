@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    block-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    text-align: end;
+    background-color: rgb(214, 109, 188);
+    
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.navbar ul li{
+    width: 110px;
+    margin: 10px;
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.myself{
+    background-color: rgb(223, 170, 170);
+    height: 617px;
+}
+.name{
+    font-family: 'Smooch', cursive;
+}
+/* .active,ul li:hover{
+    background-color: rgb(238, 162, 232);
+    border-radius: 5px;   
+} */
+.career{
+    margin-top: -42%;
+    margin-left: 5%;
+}
+.me{
+    font-size: 75px; 
+    font-family: 'Smooch', cursive;  
+}
+.about{
+    font-size: 25px;
+}
+.image1{
+    margin-left: 68%;
+}
+.course{
+    margin-top: 1%;
+}
+.get{
+    background: none;
+    width: 15%;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    border-color: aliceblue;
+    margin-top: 4%;
+   
+}
+.get:hover{
+    background-color: #fff;
+    color: black;
+    border-color: white;
+    
+}
+.container2{
+    background-color: white ;
+    width: 100%;
+    margin-top: 26%;
+}
+.image2{
+    margin-top: -42%;
+    margin-left: 6%;
+   
+
+}
+
+.welcome{
+    font-size: 35px;
+    margin-left: 40%;
+    margin-top: -10%;
+   
+   
+   
+}
+.well{
+    line-height: 1.5;
+    margin-left: 40%;
+   
+}
+p{
+    margin-left: 45%;
+    width: 55%;
+    
+}
+.more{
+    height: 45px;
+    width: 140px;
+    margin-left: 40%;
+    margin-top: 3%;
+    border-color: yellow;   
+}
+.container1{
+    margin-top: 5%;
+}
+.container1 h1{
+    margin-left: 6%;
+    margin-bottom: 2%;
+
+}
+.flo1{
+    width: 28%; 
+    height: 400px;
+    margin-left: 6%;
+    transition: 10s;
+    transform: scale(0.3s);
+}
+.flo2{
+    width: 28%; 
+    height: 400px;
+    margin-left: 2%;
+}
+.flo3{
+    width: 28%; 
+    height: 400px;
+    margin-left: 2%;
+}
+.container1{
+    margin-top: 5%;
+}
+.container1 h1{
+    margin-left: 6%;
+    margin-bottom: 2%;
+
+}
+.container2{
+    position: relative; 
+    top: 15px;
+  }
+  .container3{
+    position: relative; 
+    top: 105px;
+
+  }
+
+.flo4{
+    width: 28%; 
+    height: 400px;
+    margin-left: 6%;
+    transition: 10s;
+    transform: scale(0.3s);
+}
+.flo5{
+    width: 28%; 
+    height: 400px;
+    margin-left: 2%;
+}
+.flo6{
+    width: 28%; 
+    height: 400px;
+    margin-left: 2%;
+}   
+
+
+
+
+
