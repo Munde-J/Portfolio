@@ -32,3 +32,5 @@ mobileNavItems.addEventListener('click', (event) => {
          break;
    }
 });
+
+

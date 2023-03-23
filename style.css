@@ -234,3 +234,67 @@ h1 {
    font-weight: 300;
  } 
  
+ .project-section {
+   text-align: center;
+   padding: 4rem 1.5rem 3rem;
+   background: var(--black-color);
+}
+
+.project-heading {
+   margin-bottom: 2rem;
+   color: var(--red-color);
+}
+.project-title {
+   color: var(--red-color);
+}
+.project-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   grid-gap: 3rem 3rem;
+   width: 100%;
+   max-width: 1280px;
+}
+.project-container {
+   display: grid;
+   row-gap: 1.5rem;
+   background-color: #3d3e3d;
+   padding: 2rem 1rem;
+   border-radius: 5px;
+   box-shadow: inset 0 0 5px rgb(255 255 255 / 10%),
+   inset 0 0 10px rgb(255 255 255 / 10%), 
+   0 0 15px rgb(255 255 255 / 10%), 
+   inset 0 0 20px rgb(255 255 255 / 10%),
+   0 0 5px rgb(255 255 255 / 10%),
+   0 0 10px rgb(255 255 255 / 10%), 
+   0 0 15px rgb(255 255 255 / 10%);
+}
+.project-image {
+   height: 13.5rem;
+   width: 100%;
+   object-fit: cover;
+}
+.project-links {
+   display: flex;
+   justify-content: space-between;
+}
+
+.project-link {
+   border: 0;
+   border-radius: 10px;
+   background: var(--red-color);
+   color: white;
+   font-size: inherit;
+   font-weight: inherit;
+   padding: 0.2rem 0.75rem;
+   outline: none;
+   position: relative;
+   transition: border-radius 1s;
+   -webkit-transition: border-radius 1s;
+}
+ 
+.project-link:hover {
+   border-bottom-right-radius: 50px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+}  
